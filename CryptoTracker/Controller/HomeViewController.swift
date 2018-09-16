@@ -29,8 +29,6 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         coinTableView.delegate = self
         coinTableView.dataSource = self
-        
-        getPrices()
     }
     
     //MARK: - UITableViewDataSource Methods

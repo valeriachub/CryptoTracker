@@ -15,6 +15,7 @@
 		3A37E67E214CD31900F35F57 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A37E67C214CD31900F35F57 /* TableViewCell.swift */; };
 		3A37E67F214CD31900F35F57 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A37E67D214CD31900F35F57 /* TableViewCell.xib */; };
 		3A37E681214CD6AE00F35F57 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A37E680214CD6AE00F35F57 /* Coin.swift */; };
+		3A99F660214EC26300F16312 /* CoinListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99F65F214EC26300F16312 /* CoinListViewController.swift */; };
 		3E77A78A131308A704FF3A84 /* Pods_CryptoTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876687CB392DF85C33C8F716 /* Pods_CryptoTracker.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		3A37E67C214CD31900F35F57 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		3A37E67D214CD31900F35F57 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		3A37E680214CD6AE00F35F57 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		3A99F65F214EC26300F16312 /* CoinListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListViewController.swift; sourceTree = "<group>"; };
 		876687CB392DF85C33C8F716 /* Pods_CryptoTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29D7A8F15F3D148193AE58D /* Pods-CryptoTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoTracker/Pods-CryptoTracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				3A37E669214BFC7F00F35F57 /* HomeViewController.swift */,
+				3A99F65F214EC26300F16312 /* CoinListViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			files = (
 				3A37E67E214CD31900F35F57 /* TableViewCell.swift in Sources */,
 				3A37E66A214BFC7F00F35F57 /* HomeViewController.swift in Sources */,
+				3A99F660214EC26300F16312 /* CoinListViewController.swift in Sources */,
 				3A37E681214CD6AE00F35F57 /* Coin.swift in Sources */,
 				3A37E668214BFC7F00F35F57 /* AppDelegate.swift in Sources */,
 			);
